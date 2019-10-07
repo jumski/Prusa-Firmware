@@ -1,3 +1,7 @@
+# Prusa MK3S "Remake" Firmware fork
+
+The purpose of this repo is to hold changes for the Remake version, different thermistor, name, etc.
+
 # Table of contents
 
 <!--ts-->
@@ -18,8 +22,8 @@
 1. Clone this repository and checkout the correct branch for your desired release version.
 
 2. Set your printer model. 
-   - For MK3 --> skip to step 3. 
-   - If you have a different printer model, follow step [2.b](#2b) from Windows build
+   - For MK3S Remake --> skip to step 3. 
+   - If you have a different printer model go to the original repository.
    
 3. Run `sudo ./build.sh`
    - Output hex file is at `"PrusaFirmware/lang/firmware.hex"` . In the same folder you can hex files for other languages as well.
